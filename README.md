@@ -31,7 +31,8 @@ Pour installer et exécuter ce projet localement, suivez les étapes ci-dessous 
    ```
 
 5. Démarrez le back :
-   ```./pocketbase/pocketbase serve
+   ```
+   ./pocketbase/pocketbase serve
 
    ```
 
