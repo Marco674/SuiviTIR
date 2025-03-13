@@ -1,0 +1,21 @@
+{
+  "pocketbase": {
+    "url": "http://127.0.0.1:8090"
+  },
+  "suivitir": {
+    "logo": "", //Base64 logo
+    "logo_type": "PNG",
+    "logo_heigth": 10,
+    "logo_width": 5,
+    "logo_pos_x": 15,
+    "logo_pos_y": 20,
+    "header_title" : "John Doe inc",
+    "header_title_pos_x": 90,
+    "header_title_pos_y": 10,
+    "header_subtitle": "Association déclarée à la préfecture de XXXXXXXX le XX.XX.XXXX : N° XXX\nAgrément de Jeunesse et Sports N°XX.XX du XX.XX.XXXXX\nAffiliée à la Fédération Française de Tir sous le N° XX XX XXX",
+    "header_city": "Paris",
+    "responsible_name": "John Doe",
+    "association": "John Doe inc"
+
+  }
+}
