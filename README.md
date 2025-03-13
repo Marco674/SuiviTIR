@@ -41,7 +41,7 @@ Pour installer et exécuter ce projet localement, suivez les étapes ci-dessous 
    ```
 
 6. Créez un premier utilisateur SuiviTIR :
-Connectez vous sur pocketbase `http://127.0.0.1:8090 et créez un utilisateur dans la collection users
+Connectez vous sur pocketbase `http://127.0.0.1:8090` et créez un utilisateur dans la collection users
 
 ## Utilisation
 Après avoir démarré l'application, ouvrez votre navigateur et accédez à `http://localhost:3000` pour utiliser l'application.
