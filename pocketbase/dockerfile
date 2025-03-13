@@ -1,0 +1,26 @@
+# Utiliser une image de base légère
+FROM alpine
+
+# Mettre à jour les paquets et installer les dépendances nécessaires
+RUN apk update && apk add --no-cache \
+    curl \
+    unzip
+
+# Définir les variables d'environnement pour PocketBase
+ENV POCKETBASE_VERSION=0.25.9
+ENV POCKETBASE_DIR=/app
+
+# Télécharger et installer PocketBase
+RUN curl -fsSL https://github.com/pocketbase/pocketbase/releases/download/v${POCKETBASE_VERSION}/pocketbase_${POCKETBASE_VERSION}_linux_amd64.zip -o pocketbase.zip \
+    && unzip pocketbase.zip -d ${POCKETBASE_DIR} \
+    && chmod +x ${POCKETBASE_DIR}/pocketbase \
+    && rm pocketbase.zip
+
+# Copier le fichier de migration dans l'image Docker
+COPY pb_migrations /app/pb_migrations
+
+# Exposer le port par défaut de PocketBase
+EXPOSE 8090/tcp
+
+# Commande pour démarrer PocketBase
+CMD ["/app/pocketbase", "serve"]
