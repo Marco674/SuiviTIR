@@ -30,11 +30,18 @@ Pour installer et exécuter ce projet localement, suivez les étapes ci-dessous 
    npm start
    ```
 
+5. Configurez le back et modifier le superuser:
+   ```
+   vi /pocketbase/pb_migration/1687801090_initial_superuser.js
+   ```
+
 5. Démarrez le back :
    ```
    ./pocketbase/pocketbase serve
-
    ```
+
+6. Créez un premier utilisateur SuiviTIR :
+Connectez vous sur pocketbase `http://127.0.0.1:8090 et créez un utilisateur dans la collection users
 
 ## Utilisation
 Après avoir démarré l'application, ouvrez votre navigateur et accédez à `http://localhost:3000` pour utiliser l'application.
