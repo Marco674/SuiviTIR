@@ -1,13 +1,11 @@
 # SuiviTIR
 
 ## Description
-SuiviTIR est une application de suivi des interventions techniques et des rapports. Elle permet de gérer les interventions, de suivre leur état et de générer des rapports détaillés.
+SuiviTIR est une application de suivi tireurs sportifs. Elle permet de gérer l'assiduité, de suivre leur état et de générer des attestations.
 
 ## Fonctionnalités
-- Gestion des interventions techniques
-- Suivi de l'état des interventions
-- Génération de rapports détaillés
-- Notifications et alertes
+- Suivi de l'occupation des pas de tir
+- Génération des attestation d'assiduité
 
 ## Installation
 Pour installer et exécuter ce projet localement, suivez les étapes ci-dessous :
