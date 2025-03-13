@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
     "chart.js": "^4.4.8",
-    "js-yaml": "^4.1.0",
     "jspdf": "^3.0.0",
     "pocketbase": "^0.25.2",
     "react": "^19.0.0",
