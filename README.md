@@ -28,8 +28,10 @@ Pour installer et exécuter ce projet localement, suivez les étapes ci-dessous 
 
 4. Démarrez la stack avec docker-compose :
    ```bash
-   docker compose up -d docker-
+   docker compose up -d
    ```
+
+
 
 ## Utilisation
 Après avoir démarré la stack, ouvrez votre navigateur et accédez à `http://localhost:8090/_/` pour accéder à l'interface du backend, créer un compte utilisateur.
