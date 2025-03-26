@@ -17,5 +17,5 @@ services:
       dockerfile: dockerfile
     container_name: suivi_tir-frontend
     ports:
-      - "3000:3000"
+      - "3000:80"
     restart: always
