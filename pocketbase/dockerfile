@@ -7,7 +7,7 @@ RUN apk update && apk add --no-cache \
     unzip
 
 # Définir les variables d'environnement pour PocketBase
-ENV POCKETBASE_VERSION=0.25.9
+ENV POCKETBASE_VERSION=0.26.4
 ENV POCKETBASE_DIR=/app
 
 # Télécharger et installer PocketBase
@@ -23,4 +23,4 @@ COPY pb_migrations /app/pb_migrations
 EXPOSE 8090/tcp
 
 # Commande pour démarrer PocketBase
-CMD ["/app/pocketbase", "serve"]
+CMD ["/app/pocketbase", "serve", "--http=0.0.0.0:8090"]
