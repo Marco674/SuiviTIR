@@ -35,7 +35,7 @@ Pour installer et exécuter ce projet localement, suivez les étapes ci-dessous 
 Après avoir démarré la stack, ouvrez votre navigateur et accédez à `http://localhost:8090/_/` pour accéder à l'interface du backend, créer un compte utilisateur.
 Connectez vous avec l'addresse `http://localhost:3000/` pour accéder au front
 
-Utilisez votre moyen d'insertion et réalisez des appels API de type Post :
+Utilisez votre moyen d'insertion et réalisez des appels API de type Post pour ajouter des passages:
 ```bash
 curl --request POST \
   --url http://127.0.0.1:8090/api/collections/suiviTir/records \
