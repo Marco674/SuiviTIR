@@ -1,7 +1,7 @@
 # SuiviTIR
 
 ## Description
-SuiviTIR est une application de suivi des tireurs sportifs. 
+SuiviTIR est une application de suivi des tireurs sportifs à destination des clubs
 Elle permet de gérer l'assiduité, de suivre leur état et de générer des attestations.
 
 ## Fonctionnalités
