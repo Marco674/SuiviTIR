@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  suivi_tir-backend:
+    build:
+      context: ./pocketbase
+      dockerfile: dockerfile
+    container_name: suivi_tir-backend
+    environment:
+      - SUPERUSER_EMAIL=superuser@email.com
+      - SUPERUSER_PASSWORD=superuserpw
+    ports:
+      - "8090:8090"
+    restart: always
+
+  suivi_tir-frontend:
+    build:
+      context: ./front
+      dockerfile: dockerfile
+    container_name: suivi_tir-frontend
+    ports:
+      - "3000:3000"
+    restart: always
