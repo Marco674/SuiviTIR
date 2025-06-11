@@ -7,7 +7,7 @@ RUN apk update && apk add --no-cache \
     unzip
 
 # Définir les variables d'environnement pour PocketBase
-ENV POCKETBASE_VERSION=0.26.4
+ENV POCKETBASE_VERSION=0.28.3
 ENV POCKETBASE_DIR=/app
 
 # Télécharger et installer PocketBase
